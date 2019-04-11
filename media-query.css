@@ -1,0 +1,977 @@
+@charset "utf-8";
+
+/* 
+Author: Nicholas Le
+Date: 09/20/18
+*/
+/* Extra styles */
+
+a#nav-toggle {
+    display: none;
+}
+
+
+
+
+
+/* ==========================
+   Mobile Styles: 0px to 480p
+   ==========================
+*/
+/* Adds media queries for each iphone, galaxy and google pixel phone to date, this also has the code for the navicon. */
+@media only screen and (max-width: 480px) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+
+    div {
+        display: none;
+    }
+
+    nav.mainlinks li {
+        float: none;
+        display: block;
+        width: 100%;
+        font-size: 2em;
+    }
+
+    li#gone {
+        display: none;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- Galaxy S7 Edge ----------- */
+/* @media only screen and (min-device-width: 360px) and (-webkit-min-device-pixel-ratio: 4) and (orientation: portrait) {}
+
+@media only screen and (min-device-width: 640px) and (-webkit-min-device-pixel-ratio: 4) and (orientation: landscape) {} */
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (-webkit-device-pixel-ratio: 4) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Galaxy S9 */
+@media only screen and (min-width: 360px) and (max-width: 767px) and (-webkit-device-pixel-ratio: 4) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+/* Galaxy S9+ */
+@media only screen and (min-width: 412px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3.5) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    nav.mainlinks {
+        font-size: 1.8em;
+    }
+
+    a#nav-toggle {
+        display: block;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    nav.mainlinks ul {
+        display: none;
+    }
+
+    a#nav-toggle:hover+ul,
+    nav.mainlinks ul:hover {
+        display: block;
+    }
+
+    nav.mainlinks a:link {
+        font-size: .4em;
+    }
+}
+
+/* ================================
+   Tablet Styles: 480px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px) and (max-width: 750px) {
+    li#gone {
+        display: none;
+    }
+
+    div {
+        display: none;
+    }
+}
+
+/* =================================
+   Desktop Styles: 768px and greater
+   =================================
+*/
+/* Media Queries for desktops and laptops. Will work on finding the specs of larger screens so it will fit properly.*/
+@media only screen and (min-width: 768px) {}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
