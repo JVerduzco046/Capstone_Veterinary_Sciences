@@ -35,6 +35,7 @@ header img#catImg {
     margin-right: 5%;
     margin-left: 5%;
     padding: 0px;
+    opacity: .7;
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
