@@ -25,24 +25,29 @@ body {
 /* Img resizing so it can fit the body width */
 
 header img#mainLogo {
-    width: 20%;
-    padding: 23px;
-    margin: 23px;
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    opacity: .7;
+    right: 15%;
+    bottom: 15%;
+    display: block;
+    flex
 }
 
 header img#catImg {
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 100%;
+    height: 300px;
     padding: 0px;
-    opacity: .7;
+    position: relative;
+    z-index: 1;
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
 header h1#mainName {
     margin: 0px;
     padding: 0px 5px 0px 5px;
-    width: 90%;
+    width: 80%;
     display: block;
     text-align: right;
 }
