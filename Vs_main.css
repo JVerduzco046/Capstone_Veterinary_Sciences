@@ -66,6 +66,16 @@ h4 {
     margin: 0 0 20px 0;
 }
 
+/* 
+The divs with the articals inside need to make it conform to the rest of the page
+
+*/
+div.mainArts {
+    width: 70%;
+    display: block;
+
+}
+
 /* Changes the color and shifts the form towards the middle of the page */
 #contact-form {
     background-color: rgba(72, 72, 72, 0.7);
