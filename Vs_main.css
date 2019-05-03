@@ -4,9 +4,8 @@
 html {
     width: 100%;
     height: 100%;
-    background: rgb(243, 181, 48);
-
-
+    background: url(main_BackGround.png) fixed;
+    background-size: cover;
 }
 
 body {
@@ -16,70 +15,21 @@ body {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    border: solid 3px rgb(51, 150, 255);
-    background-color: whitesmoke;
-    opacity: .7;
-}
-
-/* Decided  to make a grid somewhat? */
-
-
-
-
-
-
-div.subGrid {
-    width: 100%;
-}
-
-div#subGrid1 {
-    width: 50%;
-    display: block;
-    float: left;
-}
-
-div#subGrid2 {
-    width: 50%;
-    display: block;
-    float: left;
-}
-
-div#subGrid3 {
-    width: 50%;
-    display: block;
-    float: left;
-}
-
-div#subGrid4 {
-    width: 50%;
-    display: block;
-    float: left;
-}
-
-div.subGrid#subGrid4 img#mainLogo {
-    width: 100%
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
-header h1#mainName {
-    margin: 0px;
-    padding: 0px 5px 0px 5px;
-    width: 80%;
-    display: block;
-    text-align: right;
-}
-
-header h1#mainName a {
-    color: rgba(111, 111, 111, .7);
-    text-decoration: none;
-
-
-}
-
-
 /* Nav styles and header nav styles*/
+header#mainLogo {
+    width: 20%;
+    display: block;
+}
+
 header>nav {
     width: 100%;
+}
+
+nav.mainLinks ul li a {
+    list-style-type: none;
 }
 
 nav.mainlinks a:visited,
@@ -87,6 +37,7 @@ nav.mainlinks a:link {
     color: #696969;
     text-decoration: none;
     font-size: 1.4vw;
+    list-style-type: none;
 }
 
 nav.mainlinks a:hover,
