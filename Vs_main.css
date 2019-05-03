@@ -18,28 +18,46 @@ body {
     margin-right: auto;
     border: solid 3px rgb(51, 150, 255);
     background-color: whitesmoke;
-
-
-}
-
-/* Img resizing so it can fit the body width */
-
-header img#mainLogo {
-    width: 30%;
-    position: absolute;
-    z-index: 2;
     opacity: .7;
-    right: 15%;
-    bottom: 15%;
-    display: block;
 }
 
-header img#catImg {
+/* Decided  to make a grid somewhat? */
+
+
+
+
+
+
+div.subGrid {
     width: 100%;
-    height: 300px;
-    padding: 0px;
-    position: relative;
-    z-index: 1;
+}
+
+div#subGrid1 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+div#subGrid2 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+div#subGrid3 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+div#subGrid4 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+div.subGrid#subGrid4 img#mainLogo {
+    width: 100%
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
