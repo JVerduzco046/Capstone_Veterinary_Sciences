@@ -70,10 +70,56 @@ h4 {
 The divs with the articals inside need to make it conform to the rest of the page
 
 */
-div.mainArts {
-    width: 70%;
-    display: block;
+div article h1 {
+    background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:
+        typing 3.5s steps(35, end),
+        blink-caret .75s step-end infinite;
+}
 
+@keyframes typing {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+div article p {
+    background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.mainArts {
+    width: 40%;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+div.mainArts article p {
+    display: block;
+    clear: both;
+    margin-left: 3%;
 }
 
 /* Changes the color and shifts the form towards the middle of the page */
