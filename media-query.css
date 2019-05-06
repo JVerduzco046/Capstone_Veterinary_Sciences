@@ -53,10 +53,6 @@ a#nav-toggle {
         width: 100%;
         font-size: 2em;
     }
-
-    li#gone {
-        display: none;
-    }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -953,15 +949,7 @@ a#nav-toggle {
    Tablet Styles: 480px and greater
    ================================
 */
-@media only screen and (min-width: 481px) and (max-width: 750px) {
-    li#gone {
-        display: none;
-    }
-
-    div {
-        display: none;
-    }
-}
+@media only screen and (min-width: 481px) and (max-width: 750px) {}
 
 /* =================================
    Desktop Styles: 768px and greater
