@@ -74,9 +74,12 @@ div article h1 {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation:
-        typing 3.5s steps(35, end),
-        blink-caret .75s step-end infinite;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    margin: 0 auto;
+
+    animation: typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
 }
 
 @keyframes typing {
@@ -97,7 +100,7 @@ div article h1 {
     }
 
     50% {
-        border-color: orange;
+        border-color: orange
     }
 }
 
