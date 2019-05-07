@@ -13,6 +13,7 @@ body {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
@@ -22,6 +23,7 @@ header img#mainLogo {
     display: block;
     float: left;
     clear: both;
+
 }
 
 /* Nav styles and header nav styles*/
@@ -29,10 +31,12 @@ header nav {
     clear: both;
     width: 100%;
     display: block;
+
 }
 
 header nav ul {
     list-style-type: none;
+
 }
 
 header nav ul li {
@@ -40,6 +44,7 @@ header nav ul li {
     display: block;
     float: left;
     text-align: center;
+
 }
 
 nav.mainlinks a:visited,
@@ -70,18 +75,21 @@ h4 {
 The divs with the articals inside need to make it conform to the rest of the page
 
 */
+
+/* typewriter styles and animation  */
 div article h1 {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
-    border-right: .15em solid orange;
+    border-right: .10em solid black;
     margin: 0 auto;
-
+    letter-spacing: 4px;
     animation: typing 3.5s steps(30, end),
         blink-caret .5s step-end infinite;
 }
 
+/* the typing effeect makes sure the content isnt diplayed until the animation is complete */
 @keyframes typing {
     from {
         width: 0%
@@ -92,6 +100,7 @@ div article h1 {
     }
 }
 
+/*  the blinking effect so it has that type writerfeel to it  */
 @keyframes blink-caret {
 
     from,
@@ -100,10 +109,11 @@ div article h1 {
     }
 
     50% {
-        border-color: orange
+        border-color: black
     }
 }
 
+/* makes the text a gradiant coloring  */
 div article p {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 50%);
     -webkit-background-clip: text;
