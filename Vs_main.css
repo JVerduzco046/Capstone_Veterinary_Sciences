@@ -244,4 +244,19 @@ div.donateBox div.donationForm form input.submit-button {
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
+
+div.donateBox div.donationForm form input {
+    padding: 5px;
+    width: 342px;
+    font-family: 'Lato', calibri, arial;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid orange;
+    border-right: 1px solid transparent;
+
+    margin-bottom: 15px
 }
