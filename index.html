@@ -69,10 +69,9 @@
             <div id="contact-wrap">
                 <div id="contact-area">
 
-                    <form method="post" action="Elmirage19@gmail.com">
+                    <form method="post" action="Elm9@gmail.com">
 
-
-                        <input type="text" name="Name" id="Name" placeholder="Full Name" />
+                        <input type="text" name="Name" id="Name" placeholder="Full Name">
 
                         <input type="text" name="City" id="City" placeholder="City" />
 
@@ -89,8 +88,52 @@
 
 
     </div>
-    </article>
-    </div>
+    <div class="donateBox">
+        <div class="donationForm">
+            <form action="">
+                <legend>Personal Information</legend>
+                <input type="text" name="Name" id="Name" placeholder="Full Name">
+                <input type="text" name="City" id="City" placeholder="City" />
+                <input type="email" name="Email" id="Email" placeholder="Email">
+                <input type="tel" name="Phone" id="Phone" placeholder="Phone" />
+                <legend>Credit Information</legend>
+                <input type="text" name="CardNumber" id="CNumber" placeholder="Card Number"
+                    pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
+                <input type="text" name="CVCNumber" id="CVC" placeholder="CVC" pattern="^\d{3,4}$">
+                <label for="expMonth">Expiration Date*</label>
+                <select id="expMonth" name="expMonth">
+                    <option value="mm">mm</option>
+                    <option value="01">01</option>
+                    <option value="01">02</option>
+                    <option value="01">03</option>
+                </select>
+                <span> / </span>
+                <select id="expYear" name="expYear">
+                    <option value="yy">yy</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+                <label class="cardLabel">Credit Card*</label>
+                <label class="cardLabel">
+                    <input name="credit" value="amex" type="radio" required />
+                    <img src="co_amex.png" alt="American Express" />
+                </label>
+                <label class="cardLabel">
+                    <input name="credit" value="discover" type="radio" />
+                    <img src="co_discover.png" alt="Discover" />
+                </label>
+                <label class="cardLabel">
+                    <input name="credit" value="master" type="radio" />
+                    <img src="co_master.png" alt="MasterCard" />
+                </label>
+                <label class="cardLabel">
+                    <input name="credit" value="visa" type="radio" />
+                    <img src="co_visa.png" alt="Visa" />
+                </label>
+
+                <input type="submit" class="submit-button" value="Submit Payment" />
+            </form>
+        </div>
     </div>
 
     <footer></footer>

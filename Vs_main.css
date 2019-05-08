@@ -135,11 +135,12 @@ div.mainArts article p {
     margin-left: 3%;
 }
 
+/*  Contact Form styles  */
 #contact-wrap {
     font-family: 'Lato', calibri, arial;
     font-size: 16px;
     font-weight: 300;
-    width: 300px;
+    width: 100%;
     color: #fff;
     overflow: auto;
 }
@@ -163,7 +164,7 @@ div.mainArts article p {
     background-color: transparent;
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid orange;
     border-right: 1px solid transparent;
 
     margin-bottom: 15px;
@@ -174,7 +175,7 @@ div.mainArts article p {
     background-color: transparent;
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid orange;
     border-right: 1px solid transparent;
 
 }
@@ -189,6 +190,7 @@ div.mainArts article p {
 
 }
 
+/* Submit button */
 #contact-area input.submit-button {
     font-family: 'Lato', calibri, arial;
     font-size: 12px;
@@ -197,10 +199,10 @@ div.mainArts article p {
     width: 100px;
     float: left;
     background-color: transparent;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    border-right: 1px solid #fff;
+    border-top: 1px solid orange;
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
 
     -moz-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
@@ -213,6 +215,33 @@ div.mainArts article p {
 
     color: #fff;
     background-color: #333;
+}
 
+/*  Donation form (Tax Refundable Donations!!) */
 
+div.donateBox {
+    display: block;
+    width: 30%;
+    float: right;
+}
+
+div.donateBox div.donationForm form input.submit-button {
+    font-family: 'Lato', calibri, arial;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 100px;
+    float: left;
+    background-color: transparent;
+    border-top: 1px solid orange;
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
+
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
 }
