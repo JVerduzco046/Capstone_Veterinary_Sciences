@@ -53,6 +53,19 @@ a#nav-toggle {
         width: 100%;
         font-size: 2em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
+
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -81,6 +94,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -107,6 +132,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -132,6 +169,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -161,6 +210,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -187,6 +248,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -212,6 +285,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -241,6 +326,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -267,6 +364,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -292,6 +401,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -321,6 +442,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -347,6 +480,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -372,6 +517,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -401,6 +558,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -427,6 +596,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -452,6 +633,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -481,6 +674,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -507,6 +712,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -532,6 +749,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -561,6 +790,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -587,6 +828,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -612,6 +865,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -641,6 +906,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -667,6 +944,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -692,6 +981,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -723,6 +1024,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Galaxy S9 */
@@ -752,6 +1065,18 @@ a#nav-toggle {
 
     aside {
         display: none;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -783,6 +1108,18 @@ a#nav-toggle {
     aside {
         display: none;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* ----------- Google Pixel ----------- */
@@ -811,6 +1148,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -837,6 +1186,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -862,6 +1223,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
@@ -891,6 +1264,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Portrait */
@@ -917,6 +1302,18 @@ a#nav-toggle {
     nav.mainlinks a:link {
         font-size: .4em;
     }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
 }
 
 /* Landscape */
@@ -942,6 +1339,18 @@ a#nav-toggle {
 
     nav.mainlinks a:link {
         font-size: .4em;
+    }
+
+    div article h1,
+        {
+        background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+        border-right: .10em solid black;
+        margin: 0 auto;
+        letter-spacing: 1px;
     }
 }
 
