@@ -80,6 +80,7 @@ The divs with the articals inside need to make it conform to the rest of the pag
 div article h1,
 h1#donateh1 {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
@@ -117,6 +118,7 @@ h1#donateh1 {
 /* makes the text a gradiant coloring  */
 div article p {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
