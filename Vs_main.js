@@ -1,7 +1,11 @@
 "use strict"
 
-image();
-setInterval("image()", 2000);
+
+window.addEventListener("load" , function (){
+    image();
+    setInterval("image()", 2000);
+})
+
 
 // Determines wheather a credit card is real or not //
 function luhn(idNum) {
@@ -90,14 +94,21 @@ function validateNumber() {
 
 function image() {
     var image = Math.floor(Math.random() * 4);
-    var caption = document.getElementById().innerHTML = "";
-    document.getElementById("") = "vs_" + image + ".jpg"
-
+    var caption = document.getElementById("caption").innerHTML;
+image+= document.getElementById("ctsoImg").getAttribute(src)= "VS_" + image + ".jpg"
     switch (image) {
         case 1:
-            document.getElementById("")
+            caption += "This Is Ms.P she is one of four dogs the program takes care of.";
             break;
-
+        case 2:
+            caption += "This is Rex he is almost two years old."
+            break;
+        case 3:
+            caption += "This is Buzz he is a very energetic puppy(So Cute!!!)."
+            break;
+        case 4:
+            caption += "This is Woody he is in isolation becasue he can't get along with the other dogs(But he is still a good boy)"
+            break;
         default:
             break;
     }
