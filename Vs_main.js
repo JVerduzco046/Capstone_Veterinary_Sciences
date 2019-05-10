@@ -1,6 +1,7 @@
 "use strict"
 
-
+image();
+setInterval("image()", 2000);
 
 // Determines wheather a credit card is real or not //
 function luhn(idNum) {
@@ -85,4 +86,21 @@ function validateNumber() {
 
         creditCard.setCustomValidity("")
     }
+}
+
+function image() {
+    var image = Math.floor(Math.random() * 4);
+    var caption = document.getElementById().innerHTML = "";
+    document.getElementById("") = "vs_" + image + ".jpg"
+
+    switch (image) {
+        case 1:
+            document.getElementById("")
+            break;
+
+        default:
+            break;
+    }
+
+
 }
