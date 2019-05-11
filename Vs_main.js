@@ -1,9 +1,9 @@
 "use strict"
 
 
-window.addEventListener("load" , function (){
+window.addEventListener("load", function () {
     image();
-    setInterval("image()", 2000);
+    setInterval("image()", 4500);
 })
 
 
@@ -93,25 +93,31 @@ function validateNumber() {
 }
 
 function image() {
-    var image = Math.floor(Math.random() * 4);
-    var caption = document.getElementById("caption").innerHTML;
-image+= document.getElementById("ctsoImg").getAttribute(src)= "VS_" + image + ".jpg"
-    switch (image) {
-        case 1:
-            caption += "This Is Ms.P she is one of four dogs the program takes care of.";
-            break;
-        case 2:
-            caption += "This is Rex he is almost two years old."
-            break;
-        case 3:
-            caption += "This is Buzz he is a very energetic puppy(So Cute!!!)."
-            break;
-        case 4:
-            caption += "This is Woody he is in isolation becasue he can't get along with the other dogs(But he is still a good boy)"
-            break;
-        default:
-            break;
-    }
+    var dogDescriptions = [
+        "This Is Ms.P she is one of four dogs the program takes care of.",
+        "This is Rex he is almost two years old.",
+        "This is Buzz he is a very energetic puppy(So Cute!!!).",
+        "This is Woody he is in isolation becasue he can't get along with the other dogs(But he is still a good boy)"
+    ]
+    var image = Math.floor(Math.random() * 3);
+    document.getElementById('caption').innerHTML = dogDescriptions[image];
+    image = document.getElementById("ctsoImg").setAttribute("src", "VS_" + image + ".jpg");
+    // switch (image) {
+    //     case 0:
+    //         caption[0].innerHTML = "This Is Ms.P she is one of four dogs the program takes care of.";
+    //         break;
+    //     case 1:
+    //         caption[0].innerHTML = "This is Rex he is almost two years old."
+    //         break;
+    //     case 2:
+    //         caption[0].innerHTML = "This is Buzz he is a very energetic puppy(So Cute!!!)."
+    //         break;
+    //     case 3:
+    //         caption[0].innerHTML = "This is Woody he is in isolation becasue he can't get along with the other dogs(But he is still a good boy)"
+    //         break;
+    //     default:
+    //         break;
+    // }
 
 
 }
