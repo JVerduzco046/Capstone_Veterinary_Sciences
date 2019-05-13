@@ -3,7 +3,7 @@
 
 window.addEventListener("load", function () {
     image();
-    setInterval("image()", 4500);
+    setInterval("image()", 3000);
 })
 
 
@@ -99,7 +99,7 @@ function image() {
         "This is Buzz he is a very energetic puppy(So Cute!!!).",
         "This is Woody he is in isolation becasue he can't get along with the other dogs(But he is still a good boy)"
     ]
-    var image = Math.floor(Math.random() * 3);
+    var image = Math.floor(Math.random() * 4);
     document.getElementById('caption').innerHTML = dogDescriptions[image];
     image = document.getElementById("ctsoImg").setAttribute("src", "VS_" + image + ".jpg");
     // switch (image) {
