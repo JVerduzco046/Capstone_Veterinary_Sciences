@@ -116,7 +116,8 @@ h1#donateh1 {
 }
 
 /* makes the text a gradiant coloring  */
-div article p {
+div article p,
+    {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 50%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -292,18 +293,19 @@ legend {
     text-decoration-color: orange;
     text-decoration-style: solid;
 }
+
 /* student Services img styles  */
 div.ctso img#ctsoImg {
     width: 100%;
     display: block;
     /* float: left; */
-    border: solid 1px orange ;
+    border: solid 1px orange;
     border-radius: 30px;
-    box-shadow: #333 5px 5px 5px ;
+    box-shadow: #333 5px 5px 5px;
 }
 
 div.ctso caption#caption {
     padding-top: 5px;
     color: #333;
-    font-size:12px; 
+    font-size: 12px;
 }
