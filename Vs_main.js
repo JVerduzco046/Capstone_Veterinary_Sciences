@@ -121,3 +121,9 @@ function image() {
 
 
 }
+
+// Getting rid of the  blinking animeation after its done
+
+function beGoneThot() {
+
+}
