@@ -294,6 +294,10 @@ legend {
     text-decoration-style: solid;
 }
 
+label.cardLabel img {
+    float: left;
+}
+
 /* student Services img styles  */
 div.ctso img#ctsoImg {
     width: 100%;
