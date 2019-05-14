@@ -54,8 +54,7 @@ a#nav-toggle {
         font-size: 2em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -64,6 +63,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 
 }
@@ -95,8 +98,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -105,6 +107,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -133,8 +139,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -143,6 +148,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -171,8 +180,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -181,6 +189,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -211,8 +223,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -221,6 +232,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -249,8 +264,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -259,6 +273,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -287,8 +305,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -297,6 +314,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -327,8 +348,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -337,6 +357,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -365,8 +389,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -375,6 +398,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -403,8 +430,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -413,6 +439,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -443,8 +473,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -453,6 +482,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -481,8 +514,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -491,6 +523,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -519,8 +555,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -529,6 +564,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -559,8 +598,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -569,6 +607,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -597,8 +639,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -607,6 +648,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -635,8 +680,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -645,6 +689,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -675,8 +723,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -685,6 +732,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -713,8 +764,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -723,6 +773,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -751,8 +805,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -761,6 +814,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -791,8 +848,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -801,6 +857,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -829,8 +889,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -839,6 +898,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -867,8 +930,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -877,6 +939,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -907,8 +973,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -917,6 +982,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -945,8 +1014,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -955,6 +1023,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -983,8 +1055,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -993,6 +1064,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1025,8 +1100,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1035,6 +1109,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1067,16 +1145,19 @@ a#nav-toggle {
         display: none;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         white-space: nowrap;
-        border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+        animation: "";
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1109,8 +1190,7 @@ a#nav-toggle {
         display: none;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1119,6 +1199,11 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1149,8 +1234,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1159,6 +1243,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1187,8 +1275,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1197,6 +1284,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1225,8 +1316,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1235,6 +1325,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1265,8 +1359,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1275,6 +1368,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1303,8 +1400,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1313,6 +1409,10 @@ a#nav-toggle {
         border-right: .10em solid black;
         margin: 0 auto;
         letter-spacing: 1px;
+    }
+
+    div article h1 strong {
+        font-size: 0.8em;
     }
 }
 
@@ -1341,8 +1441,7 @@ a#nav-toggle {
         font-size: .4em;
     }
 
-    div article h1
-        {
+    div article h1 {
         background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 35%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -1352,20 +1451,32 @@ a#nav-toggle {
         margin: 0 auto;
         letter-spacing: 1px;
     }
+
+    div article h1 strong {
+        font-size: 0.8em;
+    }
 }
 
 /* ================================
    Tablet Styles: 480px and greater
    ================================
 */
-@media only screen and (min-width: 481px) and (max-width: 750px) {}
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+    div article h1 strong {
+        font-size: 0.8em;
+    }
+
+    div.donationForm {
+        display: none;
+    }
+}
 
 /* =================================
-   Desktop Styles: 768px and greater
+   Desktop Styles: 780px and greater
    =================================
 */
 /* Media Queries for desktops and laptops. Will work on finding the specs of larger screens so it will fit properly.*/
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 780px) {}
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
