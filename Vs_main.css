@@ -18,10 +18,6 @@ body {
 }
 
 /* Header Title styles made the title into a clickable link to take the user back to the home page  */
-p {
-    color: orange;
-    text-shadow: black 1px 1px 2px;
-}
 
 header img#mainLogo {
     width: 35%;
@@ -124,7 +120,7 @@ h1 {
 
 /* makes the text a gradiant coloring  */
 div article p,
-    {
+p {
     background: linear-gradient(to right, black 0%, rgb(255, 153, 0) 50%);
     background-clip: text;
     -webkit-background-clip: text;
